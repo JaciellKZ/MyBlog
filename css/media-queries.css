@@ -41,15 +41,45 @@
         margin-top: 45px;
     }
 }
-@media (max-width: 375px)
-{
-    .contact-main-container
-    {   
-        width: 380px;
-        padding-bottom: 20px;
-    }
-    footer 
-    {
-        width: 380px;
-    }
+@media (max-width: 450px)
+{       
+
+        header .header-icons-container
+        {
+            width: auto;
+        }
+        nav
+        {
+            width: 300px;
+        }
+        header .header-icons-container .icons
+        {
+            width: 100px;
+            display:flex;
+            justify-items: center;
+            justify-content: space-between;
+            align-items: center;
+            justify-self: start;
+
+        }
+        nav .nav-logo-container
+        {
+            margin-left:inherit;
+        }
+        .home-main
+        {   
+            height: 620px;
+        }
+        .home-main .home-main-text
+        {
+            font-size: 30px;
+            height: 360px;
+            width: 200px;
+            letter-spacing: 7px;
+        }
+        .home-main section
+        {
+            margin: 20px;
+            width: 200px;
+        }
 }

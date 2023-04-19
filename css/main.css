@@ -274,33 +274,3 @@ footer p
             letter-spacing: 7px;
         }
     } 
-    @media screen and (max-width: 376px) 
-    {   
-        header .header-icons-container .icons
-        {
-            width: 380px;
-            justify-content: center;
-            margin-right: inherit;
-            justify-self: center;
-        }
-        .home-main
-        {   
-            height: 500px;
-            width: 380px;
-        }
-        .home-main .home-main-text
-        {
-            font-size: 30px;
-            height: 60px;
-            width: 380px;
-            letter-spacing: 7px;
-        }
-        nav .profile-link
-        {
-            justify-self: center;
-        }
-        nav .nav-logo-container
-        {
-            margin-left: 0px;
-        }
-    } 
